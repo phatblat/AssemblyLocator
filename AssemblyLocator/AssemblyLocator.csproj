@@ -7,4 +7,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="xunit" />
+    <None Remove="Microsoft.Build.Tasks.Core" />
+    <None Remove="Microsoft.Build" />
+    <None Remove="Microsoft.Build.Framework" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="Microsoft.Build.Tasks.Core" Version="17.1.0" />
+    <PackageReference Include="Microsoft.Build" Version="17.1.0" />
+    <PackageReference Include="Microsoft.Build.Framework" Version="17.1.0" />
+  </ItemGroup>
 </Project>
